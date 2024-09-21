@@ -6,10 +6,10 @@ function SecondSec() {
       <div className="container py-5 ">
         <div className="row">
           <div className="col-lg-6">
-            <img className="img-fluid" src="https://saridon.vercel.app/images/backache.png" alt="" />
+            <img className="img-fluid" src="/images/onetablet.jpg" alt="" />
           </div>
           <div className="col-lg-6 m-auto px-5">
-          <small className="badge badge-secondary">Pain Relief</small>
+            <small className="badge badge-secondary">Pain Relief</small>
             <h2>
               Just one tablet is enough to alleviate all your aches and pain.
             </h2>

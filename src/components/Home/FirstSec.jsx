@@ -16,7 +16,7 @@ function FirstSec() {
         <div className="d-flex justify-content-around">
           <div className="card" style={{ width: "23rem" }}>
             <img
-              src="/images/femin.jpg"
+              src="/images/femissue.jpg"
               className="card-img-top"
               alt="..."
             />
@@ -34,7 +34,7 @@ function FirstSec() {
           </div>
           <div className="card" style={{ width: "23rem" }}>
             <img
-              src="/images/headach.jpg"
+              src="/images/headach1.jpg"
               className="card-img-top"
               alt="..."
             />
@@ -52,7 +52,7 @@ function FirstSec() {
           </div>
           <div className="card" style={{ width: "23rem" }}>
             <img
-              src="/images/bodyache.jpg"
+              src="/images/bodypain.jpg"
               className="card-img-top"
               alt="..."
             />

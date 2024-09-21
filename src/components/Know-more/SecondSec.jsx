@@ -47,7 +47,7 @@ function SecondSec() {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="/images/headache.jpg"
+                    src="/images/femissue.jpg"
                     className="d-block w-100"
                     alt="..."
                   />
@@ -66,7 +66,7 @@ function SecondSec() {
                     alt="..."
                   />
                   <div className="carousel-caption d-none d-md-block">
-                    <h5>Fem Issues</h5>
+                    <h5>Headaches</h5>
                     <p>
                       We understand your pain and are here to help you find
                       relief.
@@ -75,12 +75,12 @@ function SecondSec() {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="/images/headache.jpg"
+                    src="/images/bodypain.jpg"
                     className="d-block w-100"
                     alt="..."
                   />
                   <div className="carousel-caption d-none d-md-block">
-                    <h5>Fem Issues</h5>
+                    <h5>Body Pain</h5>
                     <p>
                       We understand your pain and are here to help you find
                       relief.

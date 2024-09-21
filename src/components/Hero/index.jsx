@@ -30,7 +30,7 @@ function Hero() {
             <img
               // height="500px"
               className="img-fluid rounded-0"
-              src="https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2023/04/pill-mouth-Migraine-Relief-1296x728-header-1024x575.jpg?w=1155&h=1528"
+              src="/images/main.jpg"
               alt=""
             />
           </div>
