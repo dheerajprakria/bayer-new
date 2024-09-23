@@ -184,9 +184,9 @@ h1 {
 }
 .know-more-hero{
   background: url(/images/know-more.jpg);
-   background-position: center;
+   background-position: top;
    background-size: cover;
-   height: 500px;
+   height: 550px;
    
 }
 /* -----------know more page close-------------- */
