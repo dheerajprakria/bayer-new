@@ -184,7 +184,7 @@ h1 {
 }
 .know-more-hero{
   background: url(/images/know-more.jpg);
-   background-position: top;
+   background-position: center;
    background-size: cover;
    height: 550px;
    
