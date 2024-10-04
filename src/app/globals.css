@@ -297,6 +297,9 @@ h1 {
   .main-hero-left {
     padding: 50px !important;
   }
+  body{
+    overflow-x: hidden !important;
+  }
 }
 
 .blog-meta b{
