@@ -8,7 +8,7 @@ function Hero() {
         style={{ background: "#efefef", padding: "0", height: "100%" }}
       >
         <div className="row">
-          <div className="col-lg-5 m-auto" style={{ paddingLeft: "120px" }}>
+          <div className="col-lg-5 m-auto main-hero-left">
             <small className="badge badge-secondary">Saridon</small>
             <h1>
               Get Relief<br></br> from your pain

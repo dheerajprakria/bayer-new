@@ -90,15 +90,16 @@ a:hover {
   border-radius: 10px !important;
   padding: 40px !important;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100% 100%;
-    background: #25215e;
-    border-radius: 100px;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background: #25215e;
+  border-radius: 100px;
 }
 /* -----------global close-------------- */
 
@@ -119,8 +120,8 @@ h1 {
   margin-bottom: 30px;
 }
 
-.footer{
-    margin-top: 150px;
+.footer {
+  margin-top: 150px;
 }
 
 .footer ul li {
@@ -135,7 +136,7 @@ h1 {
   padding-bottom: 20px;
   border-bottom: 1px solid #000;
 }
-#footer-a a{
+#footer-a a {
   font-size: 14px;
 }
 
@@ -145,6 +146,10 @@ h1 {
 .first-sec {
   /* background-image: linear-gradient(358deg, #dde8ff, #ffffff); */
   padding-bottom: 10px;
+}
+
+.main-hero-left {
+  padding-left: 120px !important;
 }
 /* -----------Homepage close------------- */
 
@@ -182,12 +187,11 @@ h1 {
 .slides h2 {
   font-size: 55px !important;
 }
-.know-more-hero{
+.know-more-hero {
   background: url(/images/know-more.jpg);
-   background-position: center;
-   background-size: cover;
-   height: 550px;
-   
+  background-position: center;
+  background-size: cover;
+  height: 550px;
 }
 /* -----------know more page close-------------- */
 
@@ -256,10 +260,49 @@ h1 {
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
 }
 
-.badge-secondary{
-    --bs-bg-opacity: 1;
-    background-color: rgb(204 231 255) !important;
-    color: #25215e !important;
-    padding: 8px 15px !important;
-    font-weight: 500 !important;
+.badge-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgb(204 231 255) !important;
+  color: #25215e !important;
+  padding: 8px 15px !important;
+  font-weight: 500 !important;
+}
+
+/* ---------------fem issue page=----------------- */
+
+.cat-card {
+  border-radius: 10px;
+
+  padding: 20px;
+  box-shadow: 0px 6px 19px 7px #c7c7c733;
+}
+.cat-card:hover {
+  box-shadow: 0px 5px 125px 0px #7077fe33;
+}
+
+.cat-card img {
+  border: 8px solid #fff;
+  box-shadow: 0px 6px 19px 7px #dcdcdca6;
+  margin-right: 20px;
+}
+
+/* Media query for mobile devices (screens less than or equal to 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  .main-hero-left {
+    padding: 50px !important;
+  }
+}
+
+.blog-meta b{
+font-size: 13px;
+color: gray;
+}
+.blog-meta p{
+font-size: 13px;
 }

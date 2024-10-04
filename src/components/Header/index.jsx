@@ -7,18 +7,18 @@ function Header() {
       <div className="container-fluid header-main py-3">
         <div className="container">
           <div className="row text-align-center">
-            <div className="col-lg-4 m-auto">
+            <div className="col-lg-4 col-4 m-auto">
               <nav className="navbar navbar-expand-lg " id="navmenu">
                 <button
                   className="navbar-toggler"
                   type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNav"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
                   aria-controls="navbarNav"
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span className="navbar-toggler-icon" />
+                  <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                   <ul className="navbar-nav">
@@ -38,25 +38,25 @@ function Header() {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="/fem-issues">
                             Fem Issues
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <hr className="dropdown-divider" />
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="/headache">
                             Headache
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <hr className="dropdown-divider" />
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" href="/body-pain">
                             Body Pain
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <hr className="dropdown-divider" />
@@ -77,7 +77,7 @@ function Header() {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                       Pain Relief
+                        Pain Relief
                       </a>
                       <ul
                         className="dropdown-menu"
@@ -114,8 +114,7 @@ function Header() {
                         </li>
                       </ul>
                     </li>
-                  
-                   
+
                     <li className="nav-item">
                       <Link className="nav-link" href="faq">
                         FAQ
@@ -125,13 +124,13 @@ function Header() {
                 </div>
               </nav>
             </div>
-            <div className="col-lg-4 text-center m-auto">
+            <div className="col-lg-4 col-4 text-center m-auto">
               <Link href="/">
                 {" "}
                 <img width="130px" src="/images/logo.png" alt="" />
               </Link>
             </div>
-            <div className="col-lg-4 text-end m-auto">
+            <div className="col-lg-4 col-4 text-end m-auto">
               <button type="button" className="btn btn-light">
                 SUBSCRIBE
               </button>

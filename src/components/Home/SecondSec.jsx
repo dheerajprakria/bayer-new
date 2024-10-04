@@ -8,7 +8,7 @@ function SecondSec() {
           <div className="col-lg-6">
             <img className="img-fluid" src="/images/onetablet.jpg" alt="" />
           </div>
-          <div className="col-lg-6 m-auto px-5">
+          <div className="col-lg-6 mt-5">
             <small className="badge badge-secondary">Pain Relief</small>
             <h2>
               Just one tablet is enough to alleviate all your aches and pain.
