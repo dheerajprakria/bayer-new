@@ -126,8 +126,7 @@ function Header() {
             </div>
             <div className="col-lg-4 col-4 text-center m-auto">
               <Link href="/">
-                {" "}
-                <img width="130px" src="/images/logo.png" alt="" />
+                <img width="100px" src="/images/logo.png" alt="" />
               </Link>
             </div>
             <div className="col-lg-4 col-4 text-end m-auto">
