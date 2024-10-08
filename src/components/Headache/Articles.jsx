@@ -9,7 +9,7 @@ const ArticleCard = ({ image, title, description }) => (
       <div className="card-body text-start">
         <h5 className="card-title pt-3">{title}</h5>
         <p className="card-text py-2">{description}</p>
-        <div className="d-flex align-items-center">
+        {/* <div className="d-flex align-items-center">
           <img
             src="/images/dr.jpeg"
             className="rounded-circle me-3"
@@ -20,7 +20,7 @@ const ArticleCard = ({ image, title, description }) => (
             <b>Dr. Uma Narang</b>
             <p>June 22 2024</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>

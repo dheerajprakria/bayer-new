@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 // Reusable ArticleCard component
@@ -10,18 +11,7 @@ const ArticleCard = ({ image, title, description }) => (
         <h5 className="card-title pt-3">{title}</h5>
         <p className="card-text py-2">{description}</p>
 
-        <div className="d-flex align-items-center">
-          <img
-            src="/images/dr.jpeg"
-            className="rounded-circle me-3"
-            width="30px"
-            alt=""
-          />
-          <div className="blog-meta">
-            <b>Dr. Uma Narang</b>
-            <p>June 22 2024</p>
-          </div>
-        </div>
+       {/* <Link className="text-primary" href="#">Read more</Link> */}
       </div>
     </div>
   </div>

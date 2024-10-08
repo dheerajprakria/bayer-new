@@ -2,7 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container-fluid  know-more-hero m-auto d-flex align-items-center">
+    <div className="container-fluid  know-more-hero m-auto d-flex align-items-center"
+    style={{ background: "url(/images/bodypain-bg.jpeg)" }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

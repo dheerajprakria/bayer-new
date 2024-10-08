@@ -21,7 +21,7 @@ function TopCategories() {
                 alt="sleep issues"
               />
               <div>
-                <h3>Sleep</h3>
+                <h3>Pain Myths</h3>
                 <p>10 Articles</p>
               </div>
             </div>
@@ -35,7 +35,7 @@ function TopCategories() {
                 alt="sleep issues"
               />
               <div>
-                <h3>Stress</h3>
+                <h3>Remedies</h3>
                 <p>14 Articles</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ function TopCategories() {
                 alt="sleep issues"
               />
               <div>
-                <h3>Mindfulness</h3>
+                <h3>Exercise Tips</h3>
                 <p>6 Articles</p>
               </div>
             </div>
