@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="container-fluid  know-more-hero m-auto d-flex align-items-center"
-    style={{ background: "url(/images/bodypain-bg.jpeg)" }}>
+    style={{ background: "url(/images/bodypain-bg.jpg)" , backgroundSize:"cover"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

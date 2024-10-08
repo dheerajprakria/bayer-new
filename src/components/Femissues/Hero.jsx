@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div
       className="container-fluid  know-more-hero m-auto d-flex align-items-center"
-      style={{ background: "url(/images/femissue-bg.jpeg)" }}
+      style={{ background: "url(/images/femissue-bg.jpg)", backgroundSize:"cover" }}
     >
       <div className="container">
         <div className="row">

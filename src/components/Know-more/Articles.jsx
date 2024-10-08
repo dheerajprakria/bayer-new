@@ -14,8 +14,8 @@ function Articles() {
               Some quick example text to build on the card title and make up the
               bulk of the card&apos;s content.
             </p>
-            <button class="button-57" role="button">
-              <span class="text">Learn More</span>
+            <button className="button-57" role="button">
+              <span className="text">Learn More</span>
               <span>Learn More</span>
             </button>
           </div>
@@ -30,8 +30,8 @@ function Articles() {
               Some quick example text to build on the card title and make up the
               bulk of the card&apos;s content.
             </p>
-            <button class="button-57" role="button">
-              <span class="text">Learn More</span>
+            <button className="button-57" role="button">
+              <span className="text">Learn More</span>
               <span>Learn More</span>
             </button>
           </div>
@@ -46,8 +46,8 @@ function Articles() {
               Some quick example text to build on the card title and make up the
               bulk of the card&apos;s content.
             </p>
-            <button class="button-57" role="button">
-              <span class="text">Learn More</span>
+            <button className="button-57" role="button">
+              <span className="text">Learn More</span>
               <span>Learn More</span>
             </button>
           </div>
